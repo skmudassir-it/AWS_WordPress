@@ -45,10 +45,11 @@ if you have external domain add this in the document
 > ServerAlias www.mshaik.tech
 
 Step8:
-Setting up the permissions for file system
+login to your local host and complete wordpress installation
+when error comes while setting
 $ cd /var/www/wordpress
 $ sudo nano wp-config.php
-add this in the end of the file
+copy the code from wordpress installation page and in the end of the file
 > define("FS_METHOD","direct");
 
 Step9:
